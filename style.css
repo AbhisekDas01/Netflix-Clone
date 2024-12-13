@@ -386,6 +386,9 @@ footer .question a{
     }
 
     .faq{
+        display: flex;
+        align-items: center;
+        padding:10px;
         max-width: 90vw;
         font-size: 1rem;
     }
@@ -404,7 +407,7 @@ footer .question a{
 }
 
 
-@media screen and (max-width:350px){
+@media screen and (max-width:400px){
     .tv-media img{
         width: 322px;
         position: relative;
