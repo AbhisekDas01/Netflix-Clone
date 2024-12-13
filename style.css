@@ -319,18 +319,20 @@ footer .question a{
         /* Smaller font size for narrow screens */
     }
 
-    .nav-bar img{
 
-        content: url(assets/images/short-logo.svg);
-        width: 40px;
-    }
 }
 
 @media screen and (max-width : 1000px) {
 
+
     .nav-bar {
         width: 90vw;
 
+    }
+    .nav-bar img{
+
+        content: url(assets/images/short-logo.svg);
+        width: 40px;
     }
 
     .text-intro> :nth-child(1) {
